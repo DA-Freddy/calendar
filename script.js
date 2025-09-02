@@ -30,7 +30,7 @@ function addDoor() {
     for (let i = 1; i < 25; i++) {
         document.getElementById('calendar').innerHTML += `<div id="door${i}" onclick="changeColor(${i})" class="single-door">${i}</div>`
     }
-    console.log();
+    console.log('Hi');
     
 }
 

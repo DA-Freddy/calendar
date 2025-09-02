@@ -1,0 +1,23 @@
+.single-door{
+    width: 120px;
+    height: 120px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 8px;
+}
+
+.calendar{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 12px; */
+}
+
+.open-door{
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
